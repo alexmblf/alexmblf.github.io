@@ -1,0 +1,91 @@
+/* MESA CSS */
+
+body {
+  margin:0;
+}
+
+.content {
+  width:900px;
+  margin:0 auto;
+}
+
+#top {
+  position:relative;
+  top:0px;
+  left:0px;
+  height:110px;
+  width:100%;
+  background:#4a145a;
+}
+
+#toplogo {
+  position:relative;
+  top:0px;
+  left:0px;
+  width:200px;
+}
+
+#toplogo:hover {
+  -moz-transition:.2s ease-in;
+  -webkit-transition:.2s ease-in;
+  transition:.2s ease-in;
+  opacity:.7;
+}
+
+#topnav {
+  position:sticky;
+  top:0px;
+  left:0px;
+  height:39px;
+  width:100%;
+  background:#9ca5a5;
+}
+
+#topnav_bar {
+  position:sticky;
+  top:20px;
+  left:0px;
+  height:39px;
+  width:900px;
+  background:#9ca5a5;
+  display:block;
+}
+
+ul {
+  list-style-type:none;
+  position:sticky;
+  margin:0;
+  padding:0;
+}
+
+li {
+  float:left;
+}
+
+a.toplink {
+  font-family:Viga, sans-serif;
+  font-size:20px;
+  text-decoration:none;
+  text-transform:uppercase;
+  text-align:center;
+  padding:6px 15px;
+  background:#ddd;
+}
+
+#page {
+  position:relative;
+  top:0px;
+  left:0px;
+  height:1200px;
+  width:900px;
+  background:#fafafa;
+}
+
+#end {
+  position:relative;
+  bottom:0px;
+  left:0px;
+  height:180px;
+  width:100%;
+  background:#4a145a;
+}
